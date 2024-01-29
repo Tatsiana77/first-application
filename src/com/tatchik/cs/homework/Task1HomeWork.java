@@ -1,5 +1,12 @@
 package com.tatchik.cs.homework;
 
+
+/**
+ * В переменной minutes лежит число от 0 до 59.
+ * Написать функцию, которая принимает в качестве параметра значение переменной minutes
+ * и выводит на консоль  в какую четверть часа попадает это число (в первую, вторую, третью или четвертую).
+ * Протестировать функцию в main.
+ */
 public class Task1HomeWork {
     public static void main(String[] args) {
         testQuarterFunction(25);
