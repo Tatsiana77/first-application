@@ -20,16 +20,13 @@ public class Task2HomeWorkNew {
     private final static char MODULUS = '%';
 
     public static void main(String[] args) {
-        double operand1 = 24.4;
+        double operand1 = -24.4;
         double operand2 = 10.1;
 
 
-        try {
-            double result = calculate(operand1, operand2, MODULUS);
-            System.out.println("Result: " + result);
-        } catch (Exception e) {
-            System.out.println("Error: " + e.getMessage());
-        }
+        double result = calculate(operand1, operand2, DIVISION);
+        System.out.println("Result: " + result);
+
     }
 
     private static double calculate(double operand1, double operand2, char operation) {
