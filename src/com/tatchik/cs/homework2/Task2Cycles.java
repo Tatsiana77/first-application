@@ -23,6 +23,11 @@ public class Task2Cycles {
         System.out.println("Обратное число для " + number3 + " -> " + reversedNumber3);
     }
 
+    /**
+     * Функция для обращения целого числа
+     * @param num Целое число, которое нужно обратить
+     * @return Обратное число
+     */
     private static int reverseNumber(int number) {
         int reversed = 0;
         int power = (int) Math.log10(number); // Определение степени десяти
