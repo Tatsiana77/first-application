@@ -1,12 +1,6 @@
 package com.tatchik.cs.homework2;
 
-/**
- * Посчитать четные и нечетные цифры целого числа и вывести их на консоль.
- * Для решения написать 2 функции, которые будут принимать введенное целое число,
- * а возвращать количество четных цифр (вторая функция - нечетных).
- * Например: если введено число 228910, то у него 4 четные цифры (2, 2, 8, 0) и 2 нечетные (9, 1).
- */
-public class Task1Cycles {
+public class Task1CyclesNew {
     public static void main(String[] args) {
         int number = 228910;
 
@@ -17,7 +11,7 @@ public class Task1Cycles {
         System.out.println("Нечетные цифры: " + oddCount);
     }
 
-    // Функция для подсчета нечетных цифр
+    // Функция для подсчета четных и нечетных цифр
     private static int countDigits(int number, boolean isEven) {
         int count = 0;
 
@@ -30,8 +24,11 @@ public class Task1Cycles {
 
         return count;
     }
+
     // Функция для проверки четности
     private static boolean isEven(int value) {
         return value % 2 == 0;
     }
 }
+
+
