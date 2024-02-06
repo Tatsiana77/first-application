@@ -27,7 +27,6 @@ public class Task1Cycles {
                 count++;
             }
         }
-
         return count;
     }
     // Функция для проверки четности
