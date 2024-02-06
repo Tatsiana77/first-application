@@ -14,8 +14,9 @@ public class Task3Cycles {
         int monthlyExpenses = 300;
         double investmentPercentage = 0.10;
         double monthlyReturnRate = 0.02;
+        int salaryIncrease = 400;
         // Рассчитываем средства Вани и брокера на протяжении 3 лет и 2 месяцев (38 месяцев)
-        double vanyaSavings = calculateVanyaSavings(initialSalary, monthlyExpenses, investmentPercentage, monthlyReturnRate);
+        double vanyaSavings = calculateVanyaSavings(initialSalary, monthlyExpenses, investmentPercentage, monthlyReturnRate, salaryIncrease);
         double brokerAccount = calculateBrokerAccount(initialSalary, investmentPercentage, monthlyReturnRate);
 
         System.out.println("Средства Вани через 3 года и 2 месяца: $" + vanyaSavings);
@@ -24,20 +25,24 @@ public class Task3Cycles {
 
     /**
      * Метод для расчета средств Вани на основе его зарплаты, расходов и инвестиций.
-     *
      * @param initialSalary        Начальная зарплата Вани
      * @param monthlyExpenses      Месячные расходы Вани
      * @param investmentPercentage Процент зарплаты, который Ваня инвестирует
      * @param monthlyReturnRate    Месячная доходность от инвестиций
+     * @param salaryIncrease       Подъем зарплаты каждые 6 месяцев
      * @return Средства Вани через указанный период
      */
-    private static double calculateVanyaSavings(int initialSalary, int monthlyExpenses, double investmentPercentage, double monthlyReturnRate) {
+    private static double calculateVanyaSavings(int initialSalary,
+                                                int monthlyExpenses,
+                                                double investmentPercentage,
+                                                double monthlyReturnRate,
+                                                int salaryIncrease) {
         double vanyaSavings = 0;
 
         for (int month = 1; month <= 38; month++) {
-            // Каждые 6 месяцев увеличиваем зарплату Вани на 400$
+            // Каждые 6 месяцев увеличиваем зарплату Вани
             if (month % 6 == 0) {
-                initialSalary += 400;
+                initialSalary += salaryIncrease;
             }
             // Рассчитываем сумму для инвестирования
             double monthlyInvestment = initialSalary * investmentPercentage;
@@ -50,7 +55,6 @@ public class Task3Cycles {
 
     /**
      * Метод для расчета средств на счету брокера на основе инвестиций Вани.
-     *
      * @param initialSalary        Начальная зарплата Вани
      * @param investmentPercentage Процент зарплаты, который Ваня инвестирует
      * @param monthlyReturnRate    Месячная доходность от инвестиций
@@ -66,9 +70,7 @@ public class Task3Cycles {
             // Обновляем счет брокера с учетом доходности от инвестиций
             brokerAccount += monthlyInvestment * (1 + monthlyReturnRate);
         }
-
         return brokerAccount;
     }
-
 }
 
