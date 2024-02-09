@@ -10,35 +10,27 @@ public class Task1Cycles {
     public static void main(String[] args) {
         int number = 228910;
 
-        int evenCount = countEvenDigits(number);
-        int oddCount = countOddDigits(number);
+        int evenCount = countDigits(number, true);
+        int oddCount = countDigits(number, false);
 
         System.out.println("Четные цифры: " + evenCount);
         System.out.println("Нечетные цифры: " + oddCount);
     }
 
     // Функция для подсчета нечетных цифр
-    private static int countOddDigits(int number) {
-        int oddCount = 0;
+    private static int countDigits(int number, boolean isEven) {
+        int count = 0;
+
         for (int currentDigit = 0; number > 0; number /= 10) {
             currentDigit = number % 10;
-            if (currentDigit % 2 != 0) {
-                oddCount++;
+            if ((isEven && isEven(currentDigit)) || (!isEven && !isEven(currentDigit))) {
+                count++;
             }
         }
-        return oddCount;
+        return count;
     }
-
-    // Функция для подсчета четных цифр
-    private static int countEvenDigits(int number) {
-        int evenCount = 0;
-
-        for (int currentDigit = 0; number > 0; number /= 10) {
-            currentDigit = number % 10;
-            if (currentDigit % 2 == 0) {
-                evenCount++;
-            }
-        }
-        return evenCount;
+    // Функция для проверки четности
+    private static boolean isEven(int value) {
+        return value % 2 == 0;
     }
 }
