@@ -20,11 +20,10 @@ public class Task2HomeWorkNew {
     private final static char MODULUS = '%';
 
     public static void main(String[] args) {
-        double operand1 = -24.4;
+        double operand1 = 24.4;
         double operand2 = 10.1;
 
-
-        double result = calculate(operand1, operand2, DIVISION);
+        double result = calculate(operand1, operand2, ADDITION);
         System.out.println("Result: " + result);
 
     }
