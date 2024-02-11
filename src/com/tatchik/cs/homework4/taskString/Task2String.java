@@ -1,4 +1,4 @@
-package com.tatchik.cs.homework4;
+package com.tatchik.cs.homework4.taskString;
 
 import java.util.Scanner;
 

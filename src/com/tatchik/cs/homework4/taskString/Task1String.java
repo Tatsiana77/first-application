@@ -1,4 +1,4 @@
-package com.tatchik.cs.homework4;
+package com.tatchik.cs.homework4.taskString;
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class Task1String {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter text: ");
+        System.out.println("Enter a text: ");
 
         String inputString = scanner.nextLine();
         String result = removeDuplicates(inputString);
@@ -34,7 +34,6 @@ public class Task1String {
         if (input == null || input.isEmpty()) {
             return input;
         }
-
         StringBuilder result = new StringBuilder();
         // Инициализируем предыдущий символ нулевым символом
         char prevChar = '\0';
@@ -43,17 +42,14 @@ public class Task1String {
             if (Character.isWhitespace(currentChar)) {
                 continue;
             }
-
             // Приводим к верхнему регистру
             char upperCaseChar = toUpperCase(currentChar);
-
             // Проверяем, идет ли текущий символ после предыдущего без повторений
             if (upperCaseChar != prevChar) {
                 result.append(upperCaseChar);
                 prevChar = upperCaseChar;
             }
         }
-
         return result.toString();
     }
 
