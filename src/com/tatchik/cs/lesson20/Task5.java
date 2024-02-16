@@ -12,7 +12,8 @@ public class Task5 {
     }
 
     private static void printLetters(char startChar) {
-        for (char currentChar = startChar; !isVowel(currentChar); currentChar++) {
+        for (char currentChar = startChar;
+             !isVowel(currentChar); currentChar++) {
             System.out.println(currentChar);
         }
     }
