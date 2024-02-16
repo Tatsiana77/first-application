@@ -4,59 +4,77 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * Дана строка.
+ * Удалить из нее все повторяющиеся символы без учета регистра, если они идут друг за другом. Также удалить пробелы.
+ * Результат привести к верхнему регистру.
+ * Например:
+ * "abc Cpddd Dio OsfWw" -> "ABCPDIOSFW"
+ */
+
 public class Task1StringReg {
     public static void main(String[] args) {
+        // Создание объекта Scanner для ввода данных с клавиатуры
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter a string: ");
+        // Вывод приглашения для ввода строки
+        System.out.println("Введите строку: ");
+
+        // Считывание введенной строки с клавиатуры
         String inputString = scanner.nextLine();
 
-        String result = removeDuplicatesAndSpaces(inputString);
-        System.out.println("Result: " + result);
+        // Обработка введенной строки и получение результата
+        String result = processString(inputString);
 
+        // Вывод результата обработки строки
+        System.out.println("Результат: " + result);
+
+        // Закрытие объекта Scanner
         scanner.close();
     }
 
-    /**
-     * Удаляет повторяющиеся символы без учета регистра и пробелы из переданной строки.
-     *
-     * @param input Входная строка
-     * @return Строка без повторяющихся символов и пробелов в верхнем регистре
-     */
-    private static String removeDuplicatesAndSpaces(String input) {
-        // Удаляем повторяющиеся символы без учета регистра
-        String resultWithoutDuplicates = removeDuplicates(input);
+    // Метод для обработки введенной строки
+    private static String processString(String input) {
+        // Проверка наличия строки и ее непустоты
+        if (input == null || input.isEmpty()) {
+            return input;
+        }
 
-        // Удаляем пробелы из результата
-        String resultWithoutSpaces = removeSpaces(resultWithoutDuplicates);
+        // Удаление пробелов из введенной строки
+        String resultWithoutSpaces = removeSpaces(input);
 
-        // Приводим результат к верхнему регистру
-        return resultWithoutSpaces.toUpperCase();
+        // Удаление повторяющихся символов из строки
+        String resultWithoutDuplicates = removeDuplicates(resultWithoutSpaces);
+
+        // Приведение строки к верхнему регистру
+        return toUpperCase(resultWithoutDuplicates);
     }
 
-    /**
-     * Удаляет повторяющиеся символы без учета регистра из переданной строки.
-     *
-     * @param input Входная строка
-     * @return Строка без повторяющихся символов
-     */
-    private static String removeDuplicates(String input) {
-        // Используем регулярное выражение для удаления повторяющихся символов без учета регистра
-        String regex = "(?i)(.)\\1+";
-        Pattern pattern = Pattern.compile(regex);
-        Matcher matcher = pattern.matcher(input);
-        return matcher.replaceAll("$1");
-    }
-
-    /**
-     * Удаляет пробелы из переданной строки.
-     *
-     * @param input Входная строка
-     * @return Строка без пробелов
-     */
+    // Метод для удаления пробелов из строки
     private static String removeSpaces(String input) {
-        // Используем регулярное выражение для удаления пробелов
+        // Замена всех пробелов на пустую строку
         return input.replaceAll("\\s", "");
     }
 
+    // Метод для удаления повторяющихся символов из строки
+    private static String removeDuplicates(String input) {
+        // Использование регулярного выражения для удаления повторов
+        String regex = "(?i)(.)(?!\\1)";
+        Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(input);
+
+        // Построение результата без повторов
+        StringBuilder result = new StringBuilder();
+        while (matcher.find()) {
+            result.append(matcher.group(1));
+        }
+
+        return result.toString();
+    }
+
+    // Метод для приведения строки к верхнему регистру
+    private static String toUpperCase(String input) {
+        // Приведение строки к верхнему регистру
+        return input.toUpperCase();
+    }
 }

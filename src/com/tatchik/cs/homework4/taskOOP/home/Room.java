@@ -1,4 +1,4 @@
-package com.tatchik.cs.homework4.taskOOP;
+package com.tatchik.cs.homework4.taskOOP.home;
 
 import java.util.Objects;
 

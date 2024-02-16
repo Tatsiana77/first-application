@@ -12,55 +12,67 @@ import java.util.Scanner;
 
 public class Task1String {
     public static void main(String[] args) {
-
+        // Создание объекта Scanner для ввода данных с клавиатуры
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a text: ");
 
-        String inputString = scanner.nextLine();
-        String result = removeDuplicates(inputString);
+        // Вывод  текста
+        System.out.println("Enter the text: ");
 
-        System.out.println("Result: " + result);
+        // Считывание введенной строки с клавиатуры
+        String input = scanner.nextLine();
 
-        scanner.close();
+        // Проверка наличия введенного текста
+        if (input != null) {
+            // Удаление пробелов из введенной строки
+            String withoutSpaces = removeSpaces(input);
+
+            // Приведение строки к верхнему регистру
+            String upperCase = toUpperCase(withoutSpaces);
+
+            // Удаление повторяющихся символов из строки
+            String result = removeDuplicates(upperCase);
+
+            // Вывод результата обработки текста
+            System.out.println("Результат: " + result);
+        }
     }
 
-    /**
-     * Удаляет повторяющиеся символы без учета регистра и пробелы из переданной строки.
-     *
-     * @param input Входная строка
-     * @return Строка без повторяющихся символов и пробелов в верхнем регистре
-     */
+    // Метод для удаления пробелов из строки
+    private static String removeSpaces(String input) {
+        // Проверка наличия строки и удаление пробелов
+        return (input != null) ? input.replaceAll(" ", "") : null;
+    }
+
+    // Метод для приведения строки к верхнему регистру
+    private static String toUpperCase(String input) {
+        // Проверка наличия строки и приведение к верхнему регистру
+        return (input != null) ? input.toUpperCase() : null;
+    }
+
+    // Метод для удаления повторяющихся символов из строки
     private static String removeDuplicates(String input) {
-        if (input == null || input.isEmpty()) {
-            return input;
+        // Проверка наличия строки
+        if (input == null) {
+            return null;
         }
-        StringBuilder result = new StringBuilder();
-        // Инициализируем предыдущий символ нулевым символом
-        char prevChar = '\0';
-        for (char currentChar : input.toCharArray()) {
-            // Пропускаем пробелы
-            if (Character.isWhitespace(currentChar)) {
-                continue;
-            }
-            // Приводим к верхнему регистру
-            char upperCaseChar = toUpperCase(currentChar);
-            // Проверяем, идет ли текущий символ после предыдущего без повторений
-            if (upperCaseChar != prevChar) {
-                result.append(upperCaseChar);
-                prevChar = upperCaseChar;
-            }
-        }
-        return result.toString();
-    }
 
-    /**
-     * Приводит символ к верхнему регистру.
-     *
-     * @param inputChar Входной символ
-     * @return Символ в верхнем регистру
-     */
-    private static char toUpperCase(char inputChar) {
-        return Character.toUpperCase(inputChar);
+        // Создание объекта StringBuilder для построения результирующей строки
+        StringBuilder resultBuilder = new StringBuilder();
+
+        // Инициализация переменной для хранения предыдущего символа
+        char lastChar = '\0';
+
+        // Перебор символов во входной строке
+        for (char currentChar : input.toCharArray()) {
+            // Если текущий символ не равен предыдущему, добавляем его к результату
+            if (currentChar != lastChar) {
+                resultBuilder.append(currentChar);
+                lastChar = currentChar;
+            }
+        }
+
+        // Возвращение результата в виде строки
+        return resultBuilder.toString();
     }
 }
 

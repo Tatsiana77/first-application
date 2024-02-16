@@ -1,4 +1,4 @@
-package com.tatchik.cs.homework4.taskOOP;
+package com.tatchik.cs.homework4.taskOOP.home;
 
 
 /**
@@ -15,7 +15,7 @@ package com.tatchik.cs.homework4.taskOOP;
  * Там же реализовать метод printAllInformation, который на вход принимает
  * объект типа дом, и выводит информацию о нем, его этажах, квартирах и комнатах, вызывая методы print.
  */
-public class Task1OOP {
+public class TaskOOPRunner {
     public static void main(String[] args) {
 
          // Создание комнат
