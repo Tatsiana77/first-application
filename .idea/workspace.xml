@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0fceac0-3fc2-4e53-b80e-ee0514588495" name="Changes" comment="lesson oop and string done">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="a0fceac0-3fc2-4e53-b80e-ee0514588495" name="Changes" comment="fix commit">
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework5/encapsulation/ATM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework5/encapsulation/AtmRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework5/inheritancePolymorphism/Asteroid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework5/inheritancePolymorphism/CosmicObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework5/inheritancePolymorphism/Moon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework5/inheritancePolymorphism/Planet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework5/inheritancePolymorphism/Rotatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework5/inheritancePolymorphism/Satellite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework5/inheritancePolymorphism/SpaceRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework5/inheritancePolymorphism/SpaceUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework5/inheritancePolymorphism/Star.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework5/inheritancePolymorphism/Sun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework5/inheritancePolymorphism/Vesta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework4/Task1StringReg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework4/taskString/Task1String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework4/taskString/Task1String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework4/taskString/Task1StringReg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework4/taskString/Task1StringReg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/lesson20/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lesson20/Task5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -61,17 +70,19 @@
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework3/Task1Arrays.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework3/Task2Arrays.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework3/Task3Arrays.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework4/Task1StringReg.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework4/taskOOP/Flat.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework4/taskOOP/Floor.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework4/taskOOP/House.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework4/taskOOP/Room.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework4/taskOOP/Task1OOP.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework4/taskOOP/home/TaskOOPRunner.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework4/taskString/Task1String.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework4/taskString/Task1StringFix.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework4/taskString/Task1StringReg.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework4/taskString/Task2.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework4/taskString/Task2String.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework5/encapsulation/ATM.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework5/encapsulation/AtmRunner.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework5/inheritancePolymorphism/Asteroid.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework5/inheritancePolymorphism/CosmicObject.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework5/inheritancePolymorphism/Rotatable.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework5/inheritancePolymorphism/Satellite.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework5/inheritancePolymorphism/SpaceRunner.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework5/inheritancePolymorphism/SpaceUtils.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework5/inheritancePolymorphism/Star.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -113,7 +124,33 @@
       <command value="String" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task1StringReg">
+  <component name="RunManager" selected="Application.SpaceRunner">
+    <configuration name="AtmRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tatchik.cs.homework5.encapsulation.AtmRunner" />
+      <module name="first-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tatchik.cs.homework5.encapsulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpaceRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tatchik.cs.homework5.inheritancePolymorphism.SpaceRunner" />
+      <module name="first-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tatchik.cs.homework5.inheritancePolymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task1String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tatchik.cs.homework4.taskString.Task1String" />
       <module name="first-application" />
@@ -127,38 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1StringFix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tatchik.cs.homework4.taskString.Task1StringFix" />
-      <module name="first-application" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tatchik.cs.homework4.taskString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Task1StringReg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tatchik.cs.homework4.taskString.Task1StringReg" />
       <module name="first-application" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tatchik.cs.homework4.taskOOP.home.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tatchik.cs.homework4.taskString.Task2" />
-      <module name="first-application" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tatchik.cs.homework4.taskString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpaceRunner" />
+        <item itemvalue="Application.AtmRunner" />
         <item itemvalue="Application.Task1StringReg" />
         <item itemvalue="Application.Task2String" />
         <item itemvalue="Application.Task1String" />
-        <item itemvalue="Application.Task1StringFix" />
-        <item itemvalue="Application.Task2" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +223,8 @@
       <workItem from="1707835524312" duration="2042000" />
       <workItem from="1707929925433" duration="1690000" />
       <workItem from="1708010214743" duration="66000" />
-      <workItem from="1708085048095" duration="719000" />
+      <workItem from="1708085048095" duration="1665000" />
+      <workItem from="1708354684294" duration="2612000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -366,7 +378,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707686064655</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="fix commit">
+      <option name="closed" value="true" />
+      <created>1708086064952</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1708086064952</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,11 +424,11 @@
     <MESSAGE value="add new solution for 2 task after code review" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="add comment" />
-    <MESSAGE value="fix commit" />
     <MESSAGE value="initial commit for homework 4 String" />
     <MESSAGE value="add new solution" />
     <MESSAGE value="lesson oop and string done" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson oop and string done" />
+    <MESSAGE value="fix commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
