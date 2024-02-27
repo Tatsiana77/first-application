@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0fceac0-3fc2-4e53-b80e-ee0514588495" name="Changes" comment="initial commit for homework5">
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task1/Chat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task1/ChatOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task1/ChatRunning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task2/Chat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task2/ChatAndUserRunning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task2/ChatManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task2/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Cinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/CinemaDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Movie.java" afterDir="false" />
+    <list default="true" id="a0fceac0-3fc2-4e53-b80e-ee0514588495" name="Changes" comment="initial commit for homework6">
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Month.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task1/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task1/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task1/ChatOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task1/ChatOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task1/ChatRunning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task1/ChatRunning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task2/ChatAndUserRunning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task2/ChatAndUserRunning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task2/ChatManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task2/ChatManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Cinema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/CinemaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/CinemaDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +30,14 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework4-OOP-String" />
+        <entry key="$PROJECT_DIR$" value="homework5-OOP-Inheritance-Polymorphism-Encapsulation" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,6 +87,8 @@
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task2/ChatManager.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Cinema.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/CinemaDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Genre.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Movie.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -101,24 +104,25 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "aspect.path.notification.shown": "true",
-    "git-widget-placeholder": "homework5-OOP-Inheritance-Polymorphism-Encapsulation",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "copyright",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;aspect.path.notification.shown&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;homework6-Arrays&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tatchik.cs.homework6.arrays.task3" />
       <recent name="com.tatchik.cs.homework4" />
     </key>
   </component>
@@ -127,7 +131,7 @@
       <command value="String" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChatAndUserRunning">
+  <component name="RunManager" selected="Application.CinemaDemo">
     <configuration name="AtmRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tatchik.cs.homework5.encapsulation.AtmRunner" />
       <module name="first-application" />
@@ -195,9 +199,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CinemaDemo" />
         <item itemvalue="Application.ChatAndUserRunning" />
         <item itemvalue="Application.ChatRunning" />
-        <item itemvalue="Application.CinemaDemo" />
         <item itemvalue="Application.SpaceRunner" />
         <item itemvalue="Application.AtmRunner" />
       </list>
@@ -229,7 +233,8 @@
       <workItem from="1708085048095" duration="1665000" />
       <workItem from="1708354684294" duration="4169000" />
       <workItem from="1708541588633" duration="3000" />
-      <workItem from="1708962102584" duration="6035000" />
+      <workItem from="1708962102584" duration="6838000" />
+      <workItem from="1709042443615" duration="4841000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -399,7 +404,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708357456835</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="initial commit for homework6">
+      <option name="closed" value="true" />
+      <created>1708976412697</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1708976412697</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +455,8 @@
     <MESSAGE value="lesson oop and string done" />
     <MESSAGE value="fix commit" />
     <MESSAGE value="initial commit for homework5" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit for homework5" />
+    <MESSAGE value="initial commit for homework6" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit for homework6" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

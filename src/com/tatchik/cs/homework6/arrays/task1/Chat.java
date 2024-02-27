@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Chat {
     private String name;
-    private int users;
+    private Integer users;
 
     public Chat(String name, int users) {
         this.name = name;
@@ -17,6 +17,14 @@ public class Chat {
 
     public int getUsers() {
         return users;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setUsers(Integer users) {
+        this.users = users;
     }
 
     @Override

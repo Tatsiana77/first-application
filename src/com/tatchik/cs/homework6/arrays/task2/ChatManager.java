@@ -12,10 +12,12 @@ public class ChatManager {
 
     // Метод для преобразования списка чатов в список пользователей старше 18 лет
     public List<User> getAllUsersAbove18() {
+        // Определение возрастного порога для отбора пользователей
+        final int AGE_THRESHOLD = 18;
         List<User> allUsersAbove18 = new ArrayList<>();
         for (Chat chat : chatList) {
             for (User user : chat.getUsers()) {
-                if (user.getAge() > 18) {
+                if (user.getAge() > AGE_THRESHOLD) {
                     allUsersAbove18.add(user);
                 }
             }

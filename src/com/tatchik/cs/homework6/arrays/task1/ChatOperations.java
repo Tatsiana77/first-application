@@ -14,10 +14,12 @@ public class ChatOperations {
 
     // Метод для удаления чатов с менее чем 1000 пользователями
     public void removeChatsWithFewUsers() {
+        // Определение порога минимального количества пользователей в чате
+        final int MIN_USERS_THRESHOLD = 1000;
         Iterator<Chat> iterator = chatList.iterator();
         while (iterator.hasNext()) {
             Chat chat = iterator.next();
-            if (chat.getUsers() < 1000) {
+            if (chat.getUsers() < MIN_USERS_THRESHOLD) {
                 iterator.remove();
             }
         }
