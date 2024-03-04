@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0fceac0-3fc2-4e53-b80e-ee0514588495" name="Changes" comment="fix commit for homework6">
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework7/stream/lambda/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework7/stream/lambda/StudentProcessing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework7/stream/lambda/StudentStatistics.java" afterDir="false" />
+    <list default="true" id="a0fceac0-3fc2-4e53-b80e-ee0514588495" name="Changes" comment="initial commit for homework7">
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework7/StudentExample.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lesson21/LambdaExample.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lesson21/StreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Cinema.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/CinemaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/CinemaDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework7/stream/lambda/StudentProcessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework7/stream/lambda/StudentProcessing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework7/stream/lambda/StudentStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework7/stream/lambda/StudentStatistics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +85,7 @@
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/CinemaDemo.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Genre.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Movie.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework7/StudentExample.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework7/stream/lambda/StudentProcessing.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework7/stream/lambda/StudentStatistics.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/lesson21/LambdaExample.java" root0="SKIP_INSPECTION" />
@@ -237,7 +237,7 @@
       <workItem from="1709042443615" duration="5741000" />
       <workItem from="1709052240690" duration="9032000" />
       <workItem from="1709336521710" duration="149000" />
-      <workItem from="1709552913211" duration="3560000" />
+      <workItem from="1709552913211" duration="10791000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -431,7 +431,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709050652114</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="initial commit for homework7">
+      <option name="closed" value="true" />
+      <created>1709562271122</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1709562271122</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +484,8 @@
     <MESSAGE value="initial commit for homework5" />
     <MESSAGE value="initial commit for homework6" />
     <MESSAGE value="fix commit for homework6" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix commit for homework6" />
+    <MESSAGE value="initial commit for homework7" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit for homework7" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

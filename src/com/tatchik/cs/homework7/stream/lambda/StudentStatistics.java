@@ -20,36 +20,40 @@ public class StudentStatistics {
     public static Map<Integer, Map<String, Object>> processStudents(List<Student> students) {
         return students.stream()
                 .collect(Collectors.groupingBy(
-                        Student::getCourseNumber, TreeMap::new, Collectors.collectingAndThen(
+                        Student::getCourseNumber,
+                        TreeMap::new,
+                        Collectors.collectingAndThen(
                                 Collectors.toList(),
-                                list -> {
-                                    // Вычисление средней оценки всех студентов на курсе
-                                    double averageGrade = list.stream()
-                                            .flatMap(student -> student.getGrades().stream())
-                                            .mapToInt(Integer::intValue)
-                                            .average()
-                                            .orElse(0);
-
-                                    // Сортировка студентов по имени и фамилии
-                                    List<Map<String, String>> sortedStudents = list.stream()
-                                            .sorted(Comparator.comparing(Student::getFirstName)
-                                                    .thenComparing(Student::getLastName))
-                                            .map(student -> {
-                                                Map<String, String> studentInfo = new HashMap<>();
-                                                studentInfo.put("firstName", student.getFirstName());
-                                                studentInfo.put("lastName", student.getLastName());
-                                                return studentInfo;
-                                            })
-                                            .collect(Collectors.toList());
-
-                                    // Формирование результирующей информации для курса
-                                    Map<String, Object> result = new HashMap<>();
-                                    result.put("averageGrade", averageGrade);
-                                    result.put("students", sortedStudents);
-
-                                    return result;
-                                }
+                                list -> createCourseInfo(calculateAverageGrade(list), sortStudentsByName(list))
                         )
                 ));
+    }
+
+    private static double calculateAverageGrade(List<Student> students) {
+        int totalGrades = students.stream()
+                .flatMap(student -> student.getGrades().stream())
+                .mapToInt(Integer::intValue)
+                .sum();
+        int totalSubjects = students.stream().mapToInt(student -> student.getGrades().size()).sum();
+        return totalSubjects > 0 ? (double) totalGrades / totalSubjects : 0;
+    }
+
+    private static List<Map<String, String>> sortStudentsByName(List<Student> students) {
+        return students.stream()
+                .sorted(Comparator.comparing(Student::getFirstName).thenComparing(Student::getLastName))
+                .map(student -> {
+                    Map<String, String> studentInfo = new HashMap<>();
+                    studentInfo.put("firstName", student.getFirstName());
+                    studentInfo.put("lastName", student.getLastName());
+                    return studentInfo;
+                })
+                .collect(Collectors.toList());
+    }
+
+    private static Map<String, Object> createCourseInfo(double averageGrade, List<Map<String, String>> sortedStudents) {
+        Map<String, Object> result = new HashMap<>();
+        result.put("averageGrade", averageGrade);
+        result.put("students", sortedStudents);
+        return result;
     }
 }
