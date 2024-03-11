@@ -27,20 +27,26 @@ public class ChatOperations {
 
     // Метод для сортировки чатов по убыванию пользователей, затем по названию
     public void sortChatsByUsersAndName() {
-        Collections.sort(chatList, (chat1, chat2) -> {
-            // Сортировка по убыванию пользователей
-            int usersComparison = Integer.compare(chat2.getUsers(), chat1.getUsers());
-            if (usersComparison != 0) {
-                return usersComparison;
+        Collections.sort(chatList, new Comparator<Chat>() {
+            @Override
+            public int compare(Chat chat1, Chat chat2) {
+                int usersComparison = Integer.compare(chat2.getUsers(), chat1.getUsers());
+                if (usersComparison != 0) {
+                    return usersComparison;
+                }
+                return chat1.getName().compareTo(chat2.getName());
             }
-            // Если количество пользователей одинаково, сортировка по названию
-            return chat1.getName().compareTo(chat2.getName());
         });
     }
 
     // Метод для сортировки чатов по названию по умолчанию
     public void sortChatsByName() {
-        Collections.sort(chatList, Comparator.comparing(Chat::getName));
+        Collections.sort(chatList, new Comparator<Chat>() {
+            @Override
+            public int compare(Chat chat1, Chat chat2) {
+                return chat1.getName().compareTo(chat2.getName());
+            }
+        });
     }
 
     // Метод для вывода чатов
