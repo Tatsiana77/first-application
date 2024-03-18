@@ -2,10 +2,11 @@ package com.tatchik.cs.homework9.threads;
 
 public class CrystalRace {
     public static void main(String[] args) {
-        Mage fireMage = new FireMage();
-        Mage airMage = new AirMage();
+        System.out.println("The crystal race has started!");
+        Mage fireMage = new Mage("Fire");
+        Mage airMage = new Mage("Air");
 
-        fireMage.start(); // Запуск соревнования для мага огня
-        airMage.start(); // Запуск соревнования для мага воздуха
+        fireMage.start();
+        airMage.start();
     }
 }

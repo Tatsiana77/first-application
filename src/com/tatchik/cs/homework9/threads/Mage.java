@@ -6,22 +6,36 @@ import java.util.List;
 
 public class Mage extends Thread {
     private List<Crystal> collectedCrystals = Collections.synchronizedList(new ArrayList<>());
-    private static final int GOAL = 500;
+    private final String race;
+    private static final int GOAL = 20;
+    private static volatile boolean raceFinished = false;
+
+    public Mage(String race) {
+        this.race = race;
+    }
 
     @Override
     public void run() {
-        while (!hasCollectedRequiredCrystals()) {
-            synchronized (Planet.class) { // Синхронизация на уровне класса Planet
-                collectedCrystals.addAll(Planet.generateCrystals());
+        System.out.println(race + " mage starts collecting crystals.");
+
+        while (!raceFinished) {
+            List<Crystal> newCrystals = Planet.generateCrystals();
+            collectedCrystals.addAll(newCrystals);
+
+            if (hasCollectedRequiredCrystals() && !raceFinished) {
+                synchronized (Mage.class) {
+                    if (!raceFinished) {
+                        System.out.println(race + " mage has collected the required crystals and won the race!");
+                        raceFinished = true;
+                    }
+                }
             }
-            if (hasCollectedRequiredCrystals()) {
-                System.out.println(this.getClass().getSimpleName() + " has won!");
-                System.exit(0);
-            }
+
             try {
-                Thread.sleep(1000); // Имитация задержки в "сутки"
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
+                Thread.currentThread().interrupt();
             }
         }
     }

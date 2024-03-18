@@ -4,25 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0fceac0-3fc2-4e53-b80e-ee0514588495" name="Changes" comment="fix commit for homework8">
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/AirMage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/Crystal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/CrystalRace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/FireMage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/Mage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/Planet.java" afterDir="false" />
+    <list default="true" id="a0fceac0-3fc2-4e53-b80e-ee0514588495" name="Changes" comment="initial commit homework9">
+      <change afterPath="$PROJECT_DIR$/resources/test.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lesson21/LambdaExample.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lesson21/StreamExample.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lesson22/FileInputStreamRunner.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lesson22/FileOutputReaderRunner.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lesson22/FileReaderRunner.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lesson22/FileRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lessons25/SimpleRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lessons25/SimpleThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lessons25/ThreadDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/result.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Cinema.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/CinemaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/CinemaDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework7/StudentExample.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework7/stream/lambda/StudentStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework7/stream/lambda/StudentStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/AirMage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/CrystalRace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/CrystalRace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/FireMage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/Planet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework7-lambda-stream" />
+        <entry key="$PROJECT_DIR$" value="homework8-input-output" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -129,7 +132,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;aspect.path.notification.shown&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;homework8-input-output&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;homework9-threads&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -203,12 +206,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tatchik.cs.homework8.inout.Task1" />
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tatchik.cs.lessons25.ThreadDemo" />
       <module name="first-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tatchik.cs.homework8.inout.*" />
+          <option name="PATTERN" value="com.tatchik.cs.lessons25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,10 +222,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.CrystalRace" />
+        <item itemvalue="Application.ThreadDemo" />
         <item itemvalue="Application.FileOutputReaderRunner" />
         <item itemvalue="Application.FileReaderRunner" />
         <item itemvalue="Application.FileInputStreamRunner" />
-        <item itemvalue="Application.Task1" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +263,8 @@
       <workItem from="1710158253495" duration="10158000" />
       <workItem from="1710339474076" duration="111000" />
       <workItem from="1710429605525" duration="1236000" />
-      <workItem from="1710777632839" duration="3006000" />
+      <workItem from="1710777632839" duration="3796000" />
+      <workItem from="1710788751555" duration="3782000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -486,7 +490,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710174417670</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="initial commit homework9">
+      <option name="closed" value="true" />
+      <created>1710780986046</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1710780986046</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +546,8 @@
     <MESSAGE value="initial commit for homework7" />
     <MESSAGE value="fix commit for homework7" />
     <MESSAGE value="fix commit for homework8" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix commit for homework8" />
+    <MESSAGE value="initial commit homework9" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit homework9" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
