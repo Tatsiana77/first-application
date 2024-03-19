@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0fceac0-3fc2-4e53-b80e-ee0514588495" name="Changes" comment="initial commit homework9">
+    <list default="true" id="a0fceac0-3fc2-4e53-b80e-ee0514588495" name="Changes" comment="fixed commit homework9">
       <change afterPath="$PROJECT_DIR$/resources/test.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lesson21/LambdaExample.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lesson21/StreamExample.java" afterDir="false" />
@@ -19,13 +19,9 @@
       <change beforePath="$PROJECT_DIR$/resources/result.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Cinema.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/CinemaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/CinemaDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework7/StudentExample.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework7/stream/lambda/StudentStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework7/stream/lambda/StudentStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/AirMage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/CrystalRace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/CrystalRace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/FireMage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/Planet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +260,8 @@
       <workItem from="1710339474076" duration="111000" />
       <workItem from="1710429605525" duration="1236000" />
       <workItem from="1710777632839" duration="3796000" />
-      <workItem from="1710788751555" duration="3782000" />
+      <workItem from="1710788751555" duration="5365000" />
+      <workItem from="1710869293799" duration="2633000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -498,7 +495,31 @@
       <option name="project" value="LOCAL" />
       <updated>1710780986046</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fixed commit homework9">
+      <option name="closed" value="true" />
+      <created>1710794306023</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1710794306024</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fixed commit homework9">
+      <option name="closed" value="true" />
+      <created>1710794338193</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1710794338193</updated>
+    </task>
+    <task id="LOCAL-00032" summary="fixed commit homework9">
+      <option name="closed" value="true" />
+      <created>1710794365428</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1710794365428</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +568,8 @@
     <MESSAGE value="fix commit for homework7" />
     <MESSAGE value="fix commit for homework8" />
     <MESSAGE value="initial commit homework9" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit homework9" />
+    <MESSAGE value="fixed commit homework9" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed commit homework9" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
