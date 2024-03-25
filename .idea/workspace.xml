@@ -4,21 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0fceac0-3fc2-4e53-b80e-ee0514588495" name="Changes" comment="fix commit for homework7">
-      <change afterPath="$PROJECT_DIR$/resources/errors.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/items-name.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/items-price.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/result.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework8/inout/CSVMerger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework8/inout/Task1.java" afterDir="false" />
+    <list default="true" id="a0fceac0-3fc2-4e53-b80e-ee0514588495" name="Changes" comment="fixed commit homework9">
+      <change afterPath="$PROJECT_DIR$/resources/test.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lesson21/LambdaExample.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lesson21/StreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lesson22/FileInputStreamRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lesson22/FileOutputReaderRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lesson22/FileReaderRunner.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lesson22/FileRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lessons25/SimpleRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lessons25/SimpleThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tatchik/cs/lessons25/ThreadDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/result.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/Cinema.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/CinemaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework6/arrays/task3/CinemaDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework7/StudentExample.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework7/stream/lambda/StudentStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework7/stream/lambda/StudentStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/CrystalRace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/CrystalRace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/Mage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework7-lambda-stream" />
+        <entry key="$PROJECT_DIR$" value="homework8-input-output" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,6 +65,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/resources/items-name.csv" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/resources/test.txt" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework/Task1HomeWork.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework/Task2HomeWork.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework/Task2HomeWorkNew.java" root0="SKIP_INSPECTION" />
@@ -97,6 +101,11 @@
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework7/stream/lambda/StudentStatistics.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework8/inout/CSVMerger.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework8/inout/Task1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/Crystal.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/CrystalRace.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/FireMage.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/Mage.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/homework9/threads/Planet.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/tatchik/cs/lesson21/LambdaExample.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
@@ -113,22 +122,22 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "aspect.path.notification.shown": "true",
-    "git-widget-placeholder": "homework8-input-output",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "copyright",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;aspect.path.notification.shown&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;homework9-threads&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.tatchik.cs.homework6.arrays.task3" />
@@ -140,9 +149,22 @@
       <command value="String" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task1">
-    <configuration name="FileRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tatchik.cs.lesson22.FileRunner" />
+  <component name="RunManager" selected="Application.CrystalRace">
+    <configuration name="CrystalRace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tatchik.cs.homework9.threads.CrystalRace" />
+      <module name="first-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tatchik.cs.homework9.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileInputStreamRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tatchik.cs.lesson22.FileInputStreamRunner" />
       <module name="first-application" />
       <extension name="coverage">
         <pattern>
@@ -154,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tatchik.cs.lesson21.LambdaExample" />
+    <configuration name="FileOutputReaderRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tatchik.cs.lesson22.FileOutputReaderRunner" />
       <module name="first-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tatchik.cs.lesson21.*" />
+          <option name="PATTERN" value="com.tatchik.cs.lesson22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tatchik.cs.lesson21.StreamExample" />
+    <configuration name="FileReaderRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tatchik.cs.lesson22.FileReaderRunner" />
       <module name="first-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tatchik.cs.lesson21.*" />
+          <option name="PATTERN" value="com.tatchik.cs.lesson22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,25 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tatchik.cs.homework7.stream.lambda.StudentProcessing" />
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tatchik.cs.lessons25.ThreadDemo" />
       <module name="first-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tatchik.cs.homework7.stream.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tatchik.cs.homework8.inout.Task1" />
-      <module name="first-application" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tatchik.cs.homework8.inout.*" />
+          <option name="PATTERN" value="com.tatchik.cs.lessons25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.FileRunner" />
-        <item itemvalue="Application.StudentProcessing" />
-        <item itemvalue="Application.StreamExample" />
-        <item itemvalue="Application.LambdaExample" />
+        <item itemvalue="Application.CrystalRace" />
+        <item itemvalue="Application.ThreadDemo" />
+        <item itemvalue="Application.FileOutputReaderRunner" />
+        <item itemvalue="Application.FileReaderRunner" />
+        <item itemvalue="Application.FileInputStreamRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +256,12 @@
       <workItem from="1709052240690" duration="9032000" />
       <workItem from="1709336521710" duration="149000" />
       <workItem from="1709552913211" duration="12390000" />
-      <workItem from="1710158253495" duration="4844000" />
+      <workItem from="1710158253495" duration="10158000" />
+      <workItem from="1710339474076" duration="111000" />
+      <workItem from="1710429605525" duration="1236000" />
+      <workItem from="1710777632839" duration="3796000" />
+      <workItem from="1710788751555" duration="5365000" />
+      <workItem from="1710869293799" duration="2633000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -465,7 +479,47 @@
       <option name="project" value="LOCAL" />
       <updated>1709592829841</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="fix commit for homework8">
+      <option name="closed" value="true" />
+      <created>1710174417670</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1710174417670</updated>
+    </task>
+    <task id="LOCAL-00029" summary="initial commit homework9">
+      <option name="closed" value="true" />
+      <created>1710780986046</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1710780986046</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fixed commit homework9">
+      <option name="closed" value="true" />
+      <created>1710794306023</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1710794306024</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fixed commit homework9">
+      <option name="closed" value="true" />
+      <created>1710794338193</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1710794338193</updated>
+    </task>
+    <task id="LOCAL-00032" summary="fixed commit homework9">
+      <option name="closed" value="true" />
+      <created>1710794365428</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1710794365428</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +566,10 @@
     <MESSAGE value="fix commit for homework6" />
     <MESSAGE value="initial commit for homework7" />
     <MESSAGE value="fix commit for homework7" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix commit for homework7" />
+    <MESSAGE value="fix commit for homework8" />
+    <MESSAGE value="initial commit homework9" />
+    <MESSAGE value="fixed commit homework9" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed commit homework9" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
