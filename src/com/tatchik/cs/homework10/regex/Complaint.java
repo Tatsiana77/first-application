@@ -1,15 +1,16 @@
 package com.tatchik.cs.homework10.regex;
 
+import java.time.LocalDateTime;
 import java.util.Objects;
 
 public class Complaint {
     private final int id;
-    private final String dateTime;
+    private LocalDateTime dateTime;
     private final String fullName;
     private final String phone;
     private final String complaintText;
 
-    public Complaint(int id, String dateTime, String fullName, String phone, String complaintText) {
+    public Complaint(int id, LocalDateTime dateTime, String fullName, String phone, String complaintText) {
         this.id = id;
         this.dateTime = dateTime;
         this.fullName = fullName;
@@ -21,7 +22,7 @@ public class Complaint {
         return id;
     }
 
-    public String getDateTime() {
+    public LocalDateTime getDateTime() {
         return dateTime;
     }
 
@@ -54,7 +55,7 @@ public class Complaint {
     public String toString() {
         return "Complaint{" +
                 "id=" + id +
-                ", dateTime='" + dateTime + '\'' +
+                ", dateTime=" + dateTime +
                 ", fullName='" + fullName + '\'' +
                 ", phone='" + phone + '\'' +
                 ", complaintText='" + complaintText + '\'' +
